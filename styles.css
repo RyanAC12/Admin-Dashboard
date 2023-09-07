@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&family=Jost:wght@500&family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 7fr;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+.sidebar {
+    padding: 35px;
+    gap: 100px;
+}
+
+.sidebar ul img {
+    width: 1.5rem;
+    height: auto;
+    padding-right: 20px;
+}
+
+.header, .main-content {
+    padding: 15px;
+}
+
+.sidebar li {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.sidebar {
+    background-color: #34d399;
+    grid-row: 1 / -1;
+    grid-column-start: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 5fr 10fr;
+    color: white;
+    font-size: 25px;
+}
+
+.nav ul, .branding ul {
+    display: grid;
+    gap: 8px;
+}
+
+.header {
+    background-color: #d1fae5;
+    grid-column-start: 2;
+}
+
+.main-content {
+    background-color: #d1fae5;
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
