@@ -30,6 +30,19 @@
 .sidebar li {
     display: flex;
     align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sidebar li:hover {
+    transition: 0.3s;
+    scale: 1.1;
+}
+
+.sidebar li:active {
+    transition: 0.1s;
+    scale: 1.05;
+    color: black;
 }
 
 ul {
