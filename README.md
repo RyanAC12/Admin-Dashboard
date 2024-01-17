@@ -1,6 +1,6 @@
 # The GM's Dashboard
 
-Check out the live version [here](https://ryanac12.github.io/Admin-Dashboard/)
+Check out the live version [here](https://github.com/RyanAC12/The-GMs-Dashboard)
 ---
 
 ### Introduction
